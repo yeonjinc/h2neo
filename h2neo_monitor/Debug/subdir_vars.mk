@@ -13,7 +13,6 @@ C_SRCS += \
 ../lcd_screen.c \
 ../main.c \
 ../opticalSensor.c \
-../ringBuffer.c \
 ../rotary_encoder_w_button.c \
 ../stopwatch.c 
 
@@ -22,7 +21,6 @@ C_DEPS += \
 ./lcd_screen.d \
 ./main.d \
 ./opticalSensor.d \
-./ringBuffer.d \
 ./rotary_encoder_w_button.d \
 ./stopwatch.d 
 
@@ -31,7 +29,6 @@ OBJS += \
 ./lcd_screen.obj \
 ./main.obj \
 ./opticalSensor.obj \
-./ringBuffer.obj \
 ./rotary_encoder_w_button.obj \
 ./stopwatch.obj 
 
@@ -40,7 +37,6 @@ OBJS__QUOTED += \
 "lcd_screen.obj" \
 "main.obj" \
 "opticalSensor.obj" \
-"ringBuffer.obj" \
 "rotary_encoder_w_button.obj" \
 "stopwatch.obj" 
 
@@ -49,14 +45,12 @@ C_DEPS__QUOTED += \
 "lcd_screen.d" \
 "main.d" \
 "opticalSensor.d" \
-"ringBuffer.d" \
 "rotary_encoder_w_button.d" \
 "stopwatch.d" 
 
 C_SRCS__QUOTED += \
 "../convertNprint.c" \
 "../lcd_screen.c" \
-"../ringBuffer.c" \
 "../rotary_encoder_w_button.c" \
 "../stopwatch.c" 
 

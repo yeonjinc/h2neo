@@ -14,7 +14,6 @@ ORDERED_OBJS += \
 "./lcd_screen.obj" \
 "./main.obj" \
 "./opticalSensor.obj" \
-"./ringBuffer.obj" \
 "./rotary_encoder_w_button.obj" \
 "./stopwatch.obj" \
 "../lnk_msp430f5529.cmd" \
@@ -160,8 +159,8 @@ h2neo_monitor.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "convertNprint.obj" "lcd_screen.obj" "main.obj" "opticalSensor.obj" "ringBuffer.obj" "rotary_encoder_w_button.obj" "stopwatch.obj" 
-	-$(RM) "convertNprint.d" "lcd_screen.d" "main.d" "opticalSensor.d" "ringBuffer.d" "rotary_encoder_w_button.d" "stopwatch.d" 
+	-$(RM) "convertNprint.obj" "lcd_screen.obj" "main.obj" "opticalSensor.obj" "rotary_encoder_w_button.obj" "stopwatch.obj" 
+	-$(RM) "convertNprint.d" "lcd_screen.d" "main.d" "opticalSensor.d" "rotary_encoder_w_button.d" "stopwatch.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

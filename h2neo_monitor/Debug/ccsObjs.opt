@@ -1,1 +1,1 @@
-"./convertNprint.obj" "./lcd_screen.obj" "./main.obj" "./opticalSensor.obj" "./ringBuffer.obj" "./rotary_encoder_w_button.obj" "./stopwatch.obj" "../lnk_msp430f5529.cmd" -llibmath.a -llibc.a 
+"./convertNprint.obj" "./lcd_screen.obj" "./main.obj" "./opticalSensor.obj" "./rotary_encoder_w_button.obj" "./stopwatch.obj" "../lnk_msp430f5529.cmd" -llibmath.a -llibc.a 

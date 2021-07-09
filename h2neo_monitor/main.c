@@ -273,7 +273,7 @@ void active_monitor(void)
                 ticMem_isFull = 1;
             }
 
-            printf("%d ", tic);
+            printf("%lu ", tic);
             printf("%f\n", flowRate);
 
             startTimer0_A5();
